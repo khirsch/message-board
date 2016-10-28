@@ -1,0 +1,9 @@
+h1, h6 {
+  text-align: center;
+}
+
+.well {
+  width: 60%;
+  display: block;
+  margin: 30px auto;
+}
