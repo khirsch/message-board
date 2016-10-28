@@ -9,12 +9,7 @@
   </div>
   <div class="row">
     {{#each model as |question|}}
-    <div class="col-sm-6">
-      {{question.content}}
-    </div>
-    <div class="col-sm-6">
-      {{question.author}}
-    </div>
+      {{question-tile question=question}}
     {{/each}}
   </div>
 </div>
