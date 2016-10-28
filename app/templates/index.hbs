@@ -1,1 +1,20 @@
-{{outlet}}
+<div class="well">
+  <div class="row">
+    <div class="col-sm-6">
+      <h4>Question:</h4>
+    </div>
+    <div class="col-sm-6">
+      <h4>Posted by:</h4>
+    </div>
+  </div>
+  <div class="row">
+    {{#each model as |question|}}
+    <div class="col-sm-6">
+      {{question.content}}
+    </div>
+    <div class="col-sm-6">
+      {{question.author}}
+    </div>
+    {{/each}}
+  </div>
+</div>
