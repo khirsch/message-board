@@ -1,1 +1,12 @@
-{{yield}}
+<div class="well">
+  <h3>{{question.content}}</h3>
+  <p>{{question.notes}}</p>
+  <h5>Asked by {{question.author}}</h5>
+  <p>{{#link-to 'index'}}&larr; Back{{/link-to}}</p>
+</div>
+
+<div class="well">
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer question=question}}
+  {{/each}}
+</div>
