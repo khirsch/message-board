@@ -1,5 +1,5 @@
   <div class="col-sm-6">
-    {{question.content}}
+    {{#link-to 'question' question.id}}{{question.content}}{{/link-to}}
   </div>
   <div class="col-sm-6">
     {{question.author}}
