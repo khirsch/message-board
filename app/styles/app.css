@@ -15,8 +15,19 @@ img {
   margin: 15px auto;
 }
 
+a, a:visited {
+  color: #FFF;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #6f99e5;
+}
+
 .well {
   width: 60%;
   display: block;
   margin: 30px auto;
+  background-color: #000;
+  color: #FFF;
 }
