@@ -8,6 +8,7 @@
 {{new-answer saveAnswer="saveAnswer" question=question}}
 
 <div class="well">
+  <h4>Answers</h4>
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer question=question}}
   {{/each}}
