@@ -6,7 +6,7 @@ h2, h6 {
   text-align: center;
 }
 
-h2 {
+h2, h3 {
   margin-top: 0px !important;
 }
 
@@ -29,9 +29,26 @@ a:hover {
 }
 
 .well {
-  width: 60%;
+  width: 58%;
   display: block;
   margin: 30px auto;
   background-color: #000;
   color: #FFF;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  background: #FFF;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn:hover {
+  background: #000;
+  color: #FFF;
+}
+
+#footer {
+  margin-top: 30px;
 }
