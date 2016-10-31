@@ -13,9 +13,9 @@
         <label for="body">Notes</label>
         {{textarea rows=2 class="form-control" value=notes id="notes"}}
       </div>
-      <button type="button" class="btn btn-default" {{action 'saveQuestion'}}>Post</button>
+      <button type="button" class="btn" {{action 'saveQuestion'}}>Post</button>
     </form>
   </div>
 {{else}}
-  <button class="btn btn-default" {{action 'newQuestionForm'}}>+ New Question</button>
+  <button class="btn" {{action 'newQuestionForm'}}>+ New Question</button>
 {{/if}}
