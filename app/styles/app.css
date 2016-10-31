@@ -2,7 +2,7 @@ body {
   font-family: 'Play';
 }
 
-h2, h6 {
+h2 {
   text-align: center;
 }
 
@@ -50,6 +50,7 @@ a:hover {
 
 #footer {
   margin-top: 30px;
+  text-align: center;
 }
 
 #logo {
