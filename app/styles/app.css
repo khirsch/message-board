@@ -10,10 +10,6 @@ h2 {
   margin-top: 0px !important;
 }
 
-h3 {
-  margin-top: 30px;
-}
-
 h4 {
   text-align: center;
 }
@@ -25,6 +21,10 @@ a, a:visited {
 a:hover {
   text-decoration: underline;
   color: #6f99e5;
+}
+
+.index-label {
+  margin-top: 0px !important;
 }
 
 .well {
@@ -60,4 +60,8 @@ a:hover {
 #edit {
   width: 15px;
   height: auto;
+}
+
+#question-content {
+  margin-top: 30px;
 }
