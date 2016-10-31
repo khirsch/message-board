@@ -6,8 +6,12 @@ h2, h6 {
   text-align: center;
 }
 
-h2, h3 {
+h2 {
   margin-top: 0px !important;
+}
+
+h3 {
+  margin-top: 30px;
 }
 
 h4 {
@@ -51,4 +55,9 @@ a:hover {
 #logo {
   display: block;
   margin: 15px auto;
+}
+
+#edit {
+  width: 15px;
+  height: auto;
 }
