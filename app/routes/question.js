@@ -19,7 +19,7 @@ export default Ember.Route.extend({
         }
       });
       question.save();
-      this.transitionTo('question-detail');
+      this.transitionTo('question');
     }
   }
 });
