@@ -45,6 +45,14 @@ a:hover {
   border: 1px solid #000;
 }
 
+.bg-color-change {
+  background-color: #6f99e5;
+}
+
+.new-question {
+  width: 40%;
+}
+
 #footer {
   margin-top: 30px;
   text-align: center;
@@ -70,6 +78,6 @@ a:hover {
   margin-top: 30px;
 }
 
-.new-question {
-  width: 40%;
+#change-theme {
+  margin-top: 30px;
 }
