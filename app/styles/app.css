@@ -37,7 +37,7 @@ a:hover {
   border-radius: 20px;
 }
 
-.btn, .btn:hover {
+.btn, .btn:hover, btn:focus {
   display: block;
   margin: 0 auto;
   background: #FFF;
