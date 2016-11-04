@@ -33,19 +33,15 @@ a:hover {
   margin: 30px auto;
   background-color: #000;
   color: #FFF;
+  border-radius: 20px;
 }
 
-.btn {
+.btn, .btn:hover {
   display: block;
   margin: 0 auto;
   background: #FFF;
   color: #000;
   border: 1px solid #000;
-}
-
-.btn:hover {
-  background: #6f99e5;
-  color: #000;
 }
 
 #footer {
