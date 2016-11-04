@@ -56,8 +56,14 @@ a:hover {
 }
 
 #edit {
+  cursor: pointer;
+}
+
+#edit img {
   width: 15px;
   height: auto;
+  margin-left: 5px;
+  margin-bottom: 4px;
 }
 
 #question-content {

@@ -16,5 +16,5 @@
     <button type="button" class="btn" {{action 'edit' question}}>Save</button>
   </form>
 {{else}}
-  <img class="pull-right" id="edit" src="/assets/images/edit.png" {{action 'editQuestionForm' question}}>
+<span {{action 'editQuestionForm' question}} id="edit" class="pull-right">Edit<img src="/assets/images/edit.png"></span>
 {{/if}}
