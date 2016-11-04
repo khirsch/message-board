@@ -6,7 +6,8 @@ export default Ember.Component.extend({
       var params = {
         author: this.get('author'),
         content: this.get('content'),
-        question: this.get('question')
+        question: this.get('question'),
+        postDate: moment().valueOf()
       };
       this.set('author', '');
       this.set('content', '');
