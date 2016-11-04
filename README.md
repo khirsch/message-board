@@ -40,7 +40,7 @@ You will need the following things properly installed on your computer:
 
 ## Known Bugs
 
-There are no known bugs at this time.
+There are no known bugs at this time. To report a bug, please visit the [Github Issues page](https://github.com/khirsch/message-board/issues) for this repository.
 
 ## Support & Contact Details
 
@@ -63,3 +63,7 @@ _Permission is hereby granted, free of charge, to any person obtaining a copy of
 _The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
 
 _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khirsch/message-board/master/Screen%20Shot%202016-11-04%20at%2010.56.28%20AM.png">
+</p>
