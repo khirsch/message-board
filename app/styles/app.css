@@ -69,3 +69,7 @@ a:hover {
 #question-content {
   margin-top: 30px;
 }
+
+#new-question {
+  width: 40%;
+}
