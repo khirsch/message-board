@@ -1,9 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Service.extend({
-  actions: {
-    change() {
-      Ember.$('body').toggleClass('bg-color-change');
-    }
+  changeBackground() {
+    Ember.$('body').toggleClass('bg-color-change');
   }
 });
