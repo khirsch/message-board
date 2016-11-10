@@ -1,9 +1,11 @@
-<div class="well">
+<div class="well" id="question-display">
   <div class="row">
-    <div class="col-sm-6 col-sm-offset-1">
+    <div class="col-sm-1 col-sm-offset-1">
+    </div>
+    <div class="col-sm-6">
       <h3 class="index-label">Question:</h3>
     </div>
-    <div class="col-sm-4 col-sm-offset-1">
+    <div class="col-sm-4">
       <h3 class="index-label">Asked by:</h3>
     </div>
   </div>
@@ -14,5 +16,7 @@
     {{/each}}
   </div>
 </div>
+
+<p id="key"><img class="sad-face" src="/assets/images/sad-black.png"><small> = no answers have yet been given</small></p>
 
 {{add-question saveQuestion="saveQuestion"}}
